@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
                         </div>
                         <div className="HomePage-data">
                             <div className="HomePage-infoTime font-thin text-xs text-gray-500">Good Morning</div>
-                            <div className="HomePage-userName text-base font-bold">Samuel George</div>
+                            <div className="HomePage-userName text-base font-bold">Samuel Georgeа</div>
                         </div>
                     </div>
                     <div className="HomePage-notification w-[40px] h-[40px] rounded-full bg-gray-300 ">

@@ -12,20 +12,7 @@ const App: FC<AppProps> = ({ router }) => {
 
     // fullscreen set telegram app
     tg.expand();
-
-    // telegram theme options
-    document.body.style.backgroundColor = tg.themeParams.bg_color || "#ffffff";
-    document.body.style.color = tg.themeParams.text_color || "#000000";
-
-    console.log(tg.initDataUnsafe.user);
-
-    // mainButton
-    tg.MainButton.setText("Підтвердити");
-    tg.MainButton.onClick(() => {
-      tg.close();
-    });
-    tg.MainButton.show();
-  }, []);
+  });
 
   return <RouterProvider router={router} />;
 };
