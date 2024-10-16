@@ -12,7 +12,11 @@ const App: FC<AppProps> = ({ router }) => {
 
     // fullscreen set telegram app
     tg.expand();
-  });
+
+
+    console.log(tg.initDataUnsafe.user);
+
+  }, []);
 
   return <RouterProvider router={router} />;
 };
